@@ -2,6 +2,7 @@
     "name": "todo-app/php-todo",
     "description": "A simple PHP todo application",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": ">=7.4"
     },
