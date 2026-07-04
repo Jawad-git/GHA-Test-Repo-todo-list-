@@ -1,0 +1,19 @@
+{
+    "name": "todo-app/php-todo",
+    "description": "A simple PHP todo application",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TodoApp\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
